@@ -1,7 +1,7 @@
 # fullcycle-docker
 
 `
-erickzanetti/fullcycle                          prod           b7d1b4b6ca6e   9 minutes ago    2.12MB
+erickzanetti/fullcycle                          prod           adddc3566bd2   9 seconds ago   1.38MB
 `
 
 Imagem no Docker Hub
