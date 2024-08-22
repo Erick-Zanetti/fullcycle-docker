@@ -11,6 +11,10 @@ const config = {
     database: process.env.MYSQL_DATABASE || 'testdb'
 };
 
+app.get('/health', (req, res) => {
+    res.send('OK');
+});
+
 app.get('/', async (req, res) => {
     const connection = await mysql.createConnection(config);
     await connection.query('CREATE TABLE IF NOT EXISTS people (name VARCHAR(255))');
